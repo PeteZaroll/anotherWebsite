@@ -65,6 +65,11 @@ footer{
   text-align: center;
 }
 
+#displayTexter-inner h5 {
+  margin: 0;
+  padding: 0;
+}
+
 #landingImage {
   background: url(http://alexdeise.com/images/westendoverlook.jpg);
   background-position: center;
