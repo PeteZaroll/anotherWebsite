@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  background: #686D72;
+  color: #D8E4FF;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+img {
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
+main {
+  max-width: 1080px;
+  margin: auto;
+}
+
+h1 {
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+h4 {
+  margin: 0;
+}
+
+footer{
+  padding-top: 40px;
+  text-align: center;
+}
+
+#header h2 {
+  background: #2F3338;
+  border-radius: 25px;
+}
+
+.caption {
+  background: #2F3338;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.caption h3 {
+  margin: 0;
+}
+
+#photos {
+  text-align: center;
+}
+
+#displayText {
+  text-align: center;
+}
+
+#displayText {
+  display: flex;
+  flex: 0 1 40vw;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#landingImage {
+  background: url(http://alexdeise.com/images/westendoverlook.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  flex: 0 1 60vw;
+  margin: 0;
+  border: 1px solid #D8E4FF;
+}
+
+.button {
+  padding: 20px;
+  border: 1px #D8E4FF solid;
+  display: inline-block;
+  margin: 12px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #D8E4FF;
+}
+
+
+
+/* Media time */
+@media (min-width: 500px) {
+  #landingPage {
+    display: flex;
+    height: 100%;
+  }
+}
