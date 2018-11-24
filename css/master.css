@@ -48,6 +48,11 @@ footer{
   margin: 0;
 }
 
+.caption a {
+  text-decoration: none;
+  color: #D8E4FF;
+}
+
 #photos {
   text-align: center;
 }
@@ -90,6 +95,17 @@ footer{
   color: #D8E4FF;
 }
 
+.gridBox {
+  display: inline-grid;
+  grid-template-columns: auto auto;
+
+}
+
+.photo {
+  border: 1px solid #D8E4FF;
+  margin: 5px;
+  align-items: center;
+}
 
 
 /* Media time */
