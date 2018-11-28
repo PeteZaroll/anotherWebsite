@@ -8,7 +8,7 @@ body {
 img {
   display: block;
   width: 100%;
-  margin: 5px;
+  margin: auto;
 }
 
 main {
@@ -34,7 +34,6 @@ footer{
 
 .caption h3 {
   margin: 0;
-  padding: 15px;
 }
 
 .caption a {
@@ -66,7 +65,7 @@ footer{
 }
 
 #landingImage {
-  background: url(http://alexdeise.com/imgs/westendoverlook.jpg);
+  background: url('http://alexdeise.com/imgs/westendoverlook.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -74,7 +73,6 @@ footer{
   flex: 0 1 60vw;
   margin: 0;
   margin-top: 5px;
-  border-radius: 15px;
 }
 
 .button {
