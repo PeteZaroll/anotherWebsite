@@ -50,6 +50,11 @@ footer{
   text-align: center;
 }
 
+#landingText h1{
+  text-align: center;
+  margin-left: 5px;
+}
+
 #displayText {
   display: flex;
   flex: 0 1 40vw;
@@ -75,6 +80,12 @@ footer{
   margin-top: 5px;
 }
 
+#landingPittsburgh {
+  margin: 5px;
+  padding-right: 20px;
+
+}
+
 .button {
   padding: 20px;
   border: 1px #D8E4FF solid;
@@ -88,6 +99,16 @@ footer{
 .gridBox {
   display: inline-grid;
   grid-template-columns: auto auto;
+
+}
+
+.landing {
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  justif-items: center;
+}
+
+.photoGalleries {
 
 }
 
