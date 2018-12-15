@@ -133,6 +133,7 @@ footer{
     display: flex;
     height: 100%;
   }
+  
 }
 
 @media (min-width: 600px) {
