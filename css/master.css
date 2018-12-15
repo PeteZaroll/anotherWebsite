@@ -24,6 +24,7 @@ footer{
 #header h2 {
   background: #2F3338;
   border-radius: 15px;
+  margin: 0;
 }
 
 .caption {
@@ -133,7 +134,7 @@ footer{
     display: flex;
     height: 100%;
   }
-  
+
 }
 
 @media (min-width: 600px) {
