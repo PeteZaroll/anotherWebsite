@@ -77,7 +77,13 @@ footer{
 
 }
 
-.photoGalleries {
+.gridBoxTwo {
+  display: inline-grid;
+  grid-template-columns: auto;
+
+}
+
+photoGalleries {
   display: inline-grid;
   grid-template-columns: auto;
   text-align: center;
