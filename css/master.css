@@ -82,6 +82,14 @@ footer{
   grid-template-columns: auto;
 
 }
+.gridBoxTwo h1{
+  text-align: center;
+
+}
+.gridBoxTwo h2{
+  text-align: center;
+
+}
 
 photoGalleries {
   display: inline-grid;
