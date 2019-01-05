@@ -23,14 +23,22 @@ footer{
 
 #header h2 {
   background: #2F3338;
-  border-radius: 15px;
-  margin: 0;
+  border-radius: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
 }
 
 .caption {
   background: #2F3338;
   border-radius: 25px;
   text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .caption h3 {
@@ -40,6 +48,7 @@ footer{
 .caption a {
   text-decoration: none;
   color: #D8E4FF;
+
 }
 
 #gallery {
